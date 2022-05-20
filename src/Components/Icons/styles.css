@@ -1,0 +1,14 @@
+.icons-content {
+    display: flex;
+    padding: 10px;
+    
+}
+
+.icons-content >*:not(:first-child) {
+      margin-left:  25px;
+}
+.icons-content a:hover {
+    transform: translateY(-5px);
+    transition: linear .2s;
+    
+}

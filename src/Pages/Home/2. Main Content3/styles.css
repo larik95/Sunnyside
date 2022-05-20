@@ -1,0 +1,41 @@
+.third-container {
+  display: flex;
+  height: 550px;
+  max-height: 550px;
+}
+.text-container-left {
+  background-image: url(./image-graphic-design.jpg);
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.text-container-right {
+  background-image: url(./image-photography.jpg);
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.text-wrapper-img {
+  max-width: 430px;
+  display: grid;
+  gap: 15px;
+  text-align: center;
+  padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .third-container {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    max-height: 1100px;
+   }
+
+}

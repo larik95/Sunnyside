@@ -1,0 +1,40 @@
+.first-container {
+ display: flex;
+  height: 550px;
+  max-height: 550px;
+}
+.text-container {
+  background-color: #eeeeee;
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+  background-image: url(./image-transform.jpg);
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+}
+
+.text-wrapper {
+    max-width: 450px;
+    display: grid;
+    gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .first-container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 800px;
+    max-height: 800px;
+     
+   }
+
+  .text-container {
+    background-color: #eeeeee;
+    padding: 25px;
+    text-align: center;
+  }
+}
